@@ -12,7 +12,7 @@ Tech stack & tools used:
 - iOS Human Interface Guidelines for UX design
 
 
-#Demo Video
+# Demo Video
 
 Watch a short screen recording of the app here:  
 https://youtube.com/shorts/pXpR2GKpqJc
