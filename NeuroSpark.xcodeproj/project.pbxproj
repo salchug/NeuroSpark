@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6C86FF62DD3D81000F6F444 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = E6C86FF52DD3D81000F6F444 /* FirebaseAppCheck */; };
+		E6C86FF82DD3D81000F6F444 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E6C86FF72DD3D81000F6F444 /* FirebaseAuth */; };
+		E6C86FFA2DD3D81000F6F444 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = E6C86FF92DD3D81000F6F444 /* FirebaseAuthCombine-Community */; };
+		E6C86FFC2DD3D81000F6F444 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = E6C86FFB2DD3D81000F6F444 /* FirebaseCore */; };
+		E6C86FFE2DD3D81000F6F444 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = E6C86FFD2DD3D81000F6F444 /* FirebaseDatabase */; };
+		E6C870942DDE4B9400F6F444 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E6C870932DDE4B9400F6F444 /* FirebaseFirestore */; };
+		E6C870962DDE4B9400F6F444 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = E6C870952DDE4B9400F6F444 /* FirebaseFirestoreCombine-Community */; };
+		E6C870982DDE4B9400F6F444 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E6C870972DDE4B9400F6F444 /* FirebaseStorage */; };
+		E6C8709A2DDE4B9400F6F444 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = E6C870992DDE4B9400F6F444 /* FirebaseStorageCombine-Community */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E6C86EFC2DD248F200F6F444 /* NeuroSpark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeuroSpark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E6C86F0E2DD248F300F6F444 /* Exceptions for "NeuroSpark" folder in "NeuroSpark" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E6C86EFB2DD248F200F6F444 /* NeuroSpark */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E6C86EFE2DD248F200F6F444 /* NeuroSpark */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E6C86F0E2DD248F300F6F444 /* Exceptions for "NeuroSpark" folder in "NeuroSpark" target */,
+			);
+			path = NeuroSpark;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6C86EF92DD248F200F6F444 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6C86FFE2DD3D81000F6F444 /* FirebaseDatabase in Frameworks */,
+				E6C86FF62DD3D81000F6F444 /* FirebaseAppCheck in Frameworks */,
+				E6C86FFA2DD3D81000F6F444 /* FirebaseAuthCombine-Community in Frameworks */,
+				E6C86FFC2DD3D81000F6F444 /* FirebaseCore in Frameworks */,
+				E6C86FF82DD3D81000F6F444 /* FirebaseAuth in Frameworks */,
+				E6C870982DDE4B9400F6F444 /* FirebaseStorage in Frameworks */,
+				E6C870942DDE4B9400F6F444 /* FirebaseFirestore in Frameworks */,
+				E6C8709A2DDE4B9400F6F444 /* FirebaseStorageCombine-Community in Frameworks */,
+				E6C870962DDE4B9400F6F444 /* FirebaseFirestoreCombine-Community in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6C86EF32DD248F200F6F444 = {
+			isa = PBXGroup;
+			children = (
+				E6C86EFE2DD248F200F6F444 /* NeuroSpark */,
+				E6C86EFD2DD248F200F6F444 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6C86EFD2DD248F200F6F444 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6C86EFC2DD248F200F6F444 /* NeuroSpark.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6C86EFB2DD248F200F6F444 /* NeuroSpark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6C86F0F2DD248F300F6F444 /* Build configuration list for PBXNativeTarget "NeuroSpark" */;
+			buildPhases = (
+				E6C86EF82DD248F200F6F444 /* Sources */,
+				E6C86EF92DD248F200F6F444 /* Frameworks */,
+				E6C86EFA2DD248F200F6F444 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E6C86EFE2DD248F200F6F444 /* NeuroSpark */,
+			);
+			name = NeuroSpark;
+			packageProductDependencies = (
+				E6C86FF52DD3D81000F6F444 /* FirebaseAppCheck */,
+				E6C86FF72DD3D81000F6F444 /* FirebaseAuth */,
+				E6C86FF92DD3D81000F6F444 /* FirebaseAuthCombine-Community */,
+				E6C86FFB2DD3D81000F6F444 /* FirebaseCore */,
+				E6C86FFD2DD3D81000F6F444 /* FirebaseDatabase */,
+				E6C870932DDE4B9400F6F444 /* FirebaseFirestore */,
+				E6C870952DDE4B9400F6F444 /* FirebaseFirestoreCombine-Community */,
+				E6C870972DDE4B9400F6F444 /* FirebaseStorage */,
+				E6C870992DDE4B9400F6F444 /* FirebaseStorageCombine-Community */,
+			);
+			productName = NeuroSpark;
+			productReference = E6C86EFC2DD248F200F6F444 /* NeuroSpark.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6C86EF42DD248F200F6F444 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					E6C86EFB2DD248F200F6F444 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = E6C86EF72DD248F200F6F444 /* Build configuration list for PBXProject "NeuroSpark" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6C86EF32DD248F200F6F444;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E6C86FBE2DD3D43800F6F444 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E6C86EFD2DD248F200F6F444 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6C86EFB2DD248F200F6F444 /* NeuroSpark */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6C86EFA2DD248F200F6F444 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6C86EF82DD248F200F6F444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E6C86F102DD248F300F6F444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67ZM77NXG8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NeuroSpark/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = salchug.NeuroSpark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6C86F112DD248F300F6F444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67ZM77NXG8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NeuroSpark/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = salchug.NeuroSpark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E6C86F122DD248F300F6F444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6C86F132DD248F300F6F444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6C86EF72DD248F200F6F444 /* Build configuration list for PBXProject "NeuroSpark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6C86F122DD248F300F6F444 /* Debug */,
+				E6C86F132DD248F300F6F444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6C86F0F2DD248F300F6F444 /* Build configuration list for PBXNativeTarget "NeuroSpark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6C86F102DD248F300F6F444 /* Debug */,
+				E6C86F112DD248F300F6F444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E6C86FBE2DD3D43800F6F444 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E6C86FF52DD3D81000F6F444 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E6C86FBE2DD3D43800F6F444 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		E6C86FF72DD3D81000F6F444 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E6C86FBE2DD3D43800F6F444 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		E6C86FF92DD3D81000F6F444 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E6C86FBE2DD3D43800F6F444 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		E6C86FFB2DD3D81000F6F444 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E6C86FBE2DD3D43800F6F444 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		E6C86FFD2DD3D81000F6F444 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E6C86FBE2DD3D43800F6F444 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		E6C870932DDE4B9400F6F444 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E6C86FBE2DD3D43800F6F444 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		E6C870952DDE4B9400F6F444 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E6C86FBE2DD3D43800F6F444 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		E6C870972DDE4B9400F6F444 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E6C86FBE2DD3D43800F6F444 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		E6C870992DDE4B9400F6F444 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E6C86FBE2DD3D43800F6F444 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E6C86EF42DD248F200F6F444 /* Project object */;
+}
