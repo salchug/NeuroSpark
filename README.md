@@ -1,3 +1,4 @@
+# NeuroSpark
 
 NeuroSpark is an iOS application designed to support early autism screening and guidance by combining modern mobile development with AI-driven analysis.
 
